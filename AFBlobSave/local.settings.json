@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=<storageaccountname>;AccountKey=<accountkey>;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "",
+    "FtpKey": "<rebexFtpLicenseKey>",
+    "FtpHostname": "<IP_of_ftp_server>",
+    "FtpInboundDir": "upload",
+    "FtpOutboundDir": "upload",
+    "FtpPassword": "<ftpServerPassword>",
+    "FtpUsername": "<ftpServerUser>",
+    "StorageAccountName": "<storageAccountForTransferredFiles>",
+    "StorageAccountKey": "<accountKey>",
+    "BlobContainerName": "<blobComtainer>",
+    "OmsWorkspaceId": "<logAnalyticsWorkspaceId>",
+    "OmsLogAnalyticsSharedKey": "<logAnalyticsSharedKey>"
+  }
+}
