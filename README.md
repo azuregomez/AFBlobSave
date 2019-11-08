@@ -20,7 +20,7 @@ FtpTransfer_CL <br>
 If 5 minutes is too often you can change the frequency.
 <h3>Pre-requisites</h3>
 <ul>
-<li>A Log Analytics Workspace. Not really required because teh code would graciously keep going anyway.
+<li>A Log Analytics Workspace. Not a hard requirement as code graciously keeps going if there is no LA Workspace.
 <li>An Azure Function App that will host the function.  Consumption plan is good enough.
 <li>A Storage Accounnt with a Blob Container to receive the files
 <li>Credentials from the remote FTP Server
