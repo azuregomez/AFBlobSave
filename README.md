@@ -6,7 +6,7 @@ We would like to do that in an automated way.
 This solution is an Azure Function that is scheduled every 5 minutes to:
 <ol>
 <li>Login to an FTP Server and get existing files
-<li>Sabe the files to a Blob Container
+<li>Save the files to a Blob Container
 <li>Remove the copied files from the FTP Server
 <li>Log activity to Log Analytics.  You can get alerted on FTP failures and create file transfer dashboards.<br><br>
   Query to alert on FTP failures for the last hour:<br><br>
