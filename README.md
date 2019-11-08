@@ -9,10 +9,10 @@ This solution is an Azure Function that is scheduled every 5 minutes to:
 <li>Sabe the files to a Blob Container
 <li>Remove the copied files from the FTP Server
 <li>Log activity to Log Analytics.  You can get alerted on FTP failures and create file transfer dashboards.<br><br>
-  Query all FTP failures for the last 24 hrs:<br>
+  Query all FTP failures for the last 24 hrs:<br><br>
   FtpTransfer_CL<br>
 | where Result_s != "Success" and TimeGenerated  > ago(24h) <br><br>
-  Dashboard with number of files and total GB transferred:<br>
+  Dashboard with number of files and total GB transferred:<br><br>
 FtpTransfer_CL <br>
 | where Result_s == "Success" and TimeGenerated  > ago(24h) <br>
 | summarize Files = count(), GB =  sum(Size_d)/1000000000 <br>
