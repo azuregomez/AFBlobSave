@@ -8,7 +8,10 @@ This solution is an Azure Function that is scheduled every 5 minutes to:
 <li>Login to an FTP Server and get existing files
 <li>Sabe the files to a Blob Container
 <li>Remove the copied files from the FTP Server
-<li>Log activity to Log Analytics.  You can get alerted on FTP failures and create file transfer dashboards.
+<li>Log activity to Log Analytics.  You can get alerted on FTP failures and create file transfer dashboards.<br>
+  For example, to query all FTP failures for the last 24 hrs:<br>
+  FtpTransfer_CL<br>
+| where Result_s != "Success" and TimeGenerated  > ago(24h) <br>  
 </ol>
 If 5 minutes is too often you can change the frequency.
 <h3>Pre-requisites</h3>
