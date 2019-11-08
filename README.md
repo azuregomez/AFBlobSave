@@ -1,6 +1,6 @@
 <H2>Serverless solution to get files from a remote FTP Server and save to Blob</h2>
 <h3>Business Case</h3>
-There are cases when business partners or internal applications integrate through an FTP Server so that files are delivered in the FTP Server and we have to get them into Aure Blob Storage.
+There are cases when business partners or internal applications integrate through an FTP Server and we have to get them to Azure Blob Storage.
 We would like to do that in an automated way.
 <h3>Solution</h3>
 This solution is an Azure Function that is scheduled every 5 minutes to:
