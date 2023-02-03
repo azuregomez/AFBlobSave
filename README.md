@@ -30,6 +30,4 @@ If 5 minutes is too often you can change the frequency.
 <ul>
 <li>This solution is an alternative to Logic Apps: <br>https://azure.microsoft.com/en-us/resources/templates/101-logic-app-ftp-to-blob/
 <li>An Azure Function is a lot more extensible than Logic Apps. You can add some fancy file processing, save stuff to a database or be part of a larger workflow with durable functions.
-<li>If you fully control the FTP Server, you can always host it in Azure and drop the files straight to Storage:<br>
-https://docs.microsoft.com/en-us/samples/azure-samples/sftp-creation-template/sftp-on-azure/
 <ul>
